@@ -1,0 +1,48 @@
+```
+$ mediainfo something.2019.S01E01.mkv | grep -A7 -e "^Text" | grep -e Title -e Language
+```
+gives
+```
+Title                                    : Czech
+Language                                 : Czech
+Title                                    : Danish
+Language                                 : Danish
+Title                                    : German
+Language                                 : German
+Title                                    : Greek
+Language                                 : Greek
+Title                                    : English
+Language                                 : English
+Title                                    : European Spanish
+Language                                 : Spanish
+Title                                    : Spanish
+Language                                 : Spanish
+Title                                    : Finnish
+Language                                 : Finnish
+Title                                    : French
+Language                                 : French
+Title                                    : Indonesian
+Language                                 : Indonesian
+Title                                    : Italian
+Language                                 : Italian
+Title                                    : Norwegian
+Language                                 : Norwegian
+Title                                    : Flemish [Original] (Forced)
+Language                                 : Dutch
+Title                                    : Dutch
+Language                                 : Dutch
+Title                                    : Polish
+Language                                 : Polish
+Title                                    : Brazilian Portuguese
+Language                                 : Portuguese
+Title                                    : Portuguese
+Language                                 : Portuguese
+Title                                    : Russian
+Language                                 : Russian
+Title                                    : Swedish
+Language                                 : Swedish
+Title                                    : Turkish
+Language                                 : Turkish
+Title                                    : Flemish
+Language                                 : Dutch
+```
