@@ -1,4 +1,8 @@
+```
 $ strings something.2019.S01E01.mkv  | head -200 | grep -A2 TEXT | grep -v TEXT | grep -v Sn | sort -u
+```
+gives output
+```
 --
 Brazilian Portuguese
 Czech
@@ -21,3 +25,4 @@ Russian
 Spanish
 Swedish
 Turkish
+```
