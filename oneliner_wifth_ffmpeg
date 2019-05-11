@@ -1,0 +1,48 @@
+```
+$ ffmpeg -i something.2019.S01E01.mkv 2>&1 | grep -A2 Subtitle | grep -v Metadata
+```
+gives
+```
+    Stream #0:2(cze): Subtitle: subrip
+      title           : Czech
+    Stream #0:3(dan): Subtitle: subrip
+      title           : Danish
+    Stream #0:4(ger): Subtitle: subrip
+      title           : German
+    Stream #0:5(gre): Subtitle: subrip
+      title           : Greek
+    Stream #0:6(eng): Subtitle: subrip
+      title           : English
+    Stream #0:7(spa): Subtitle: subrip
+      title           : European Spanish
+    Stream #0:8(spa): Subtitle: subrip
+      title           : Spanish
+    Stream #0:9(fin): Subtitle: subrip
+      title           : Finnish
+    Stream #0:10(fre): Subtitle: subrip
+      title           : French
+    Stream #0:11(ind): Subtitle: subrip
+      title           : Indonesian
+    Stream #0:12(ita): Subtitle: subrip
+      title           : Italian
+    Stream #0:13(nor): Subtitle: subrip
+      title           : Norwegian
+    Stream #0:14(dut): Subtitle: subrip (default) (forced)
+      title           : Flemish [Original] (Forced)
+    Stream #0:15(dut): Subtitle: subrip
+      title           : Dutch
+    Stream #0:16(pol): Subtitle: subrip
+      title           : Polish
+    Stream #0:17(por): Subtitle: subrip
+      title           : Brazilian Portuguese
+    Stream #0:18(por): Subtitle: subrip
+      title           : Portuguese
+    Stream #0:19(rus): Subtitle: subrip
+      title           : Russian
+    Stream #0:20(swe): Subtitle: subrip
+      title           : Swedish
+    Stream #0:21(tur): Subtitle: subrip
+      title           : Turkish
+    Stream #0:22(dut): Subtitle: subrip
+      title           : Flemish
+```
